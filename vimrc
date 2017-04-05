@@ -71,4 +71,6 @@ set autoindent
 set number
 set exrc
 set secure
+" set the color of line numbers
+highlight LineNr ctermfg=grey
 " set smartindent
