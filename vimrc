@@ -74,3 +74,6 @@ set secure
 " set the color of line numbers
 highlight LineNr ctermfg=grey
 " set smartindent
+
+" key mappings
+imap { {<Space><Space><ESC>i}
