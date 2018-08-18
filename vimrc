@@ -76,4 +76,5 @@ highlight LineNr ctermfg=grey
 " set smartindent
 
 " key mappings
-imap { {<Space><Space><ESC>i}
+imap { {<Space>}<ESC>hi<Space>
+
