@@ -1,6 +1,10 @@
+""""""" Vundle
+source ~/.vim/bundle.vim
+
 if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
-   set fileencodings=ucs-bom,utf-8,latin1 endif 
-set nocompatible	" Use Vim defaults (much better!)
+   set fileencodings=ucs-bom,utf-8,latin1
+endif
+
 set bs=indent,eol,start		" allow backspacing over everything in insert mode
 "set ai			" always set autoindenting on
 "set backup		" keep a backup file
@@ -72,6 +76,6 @@ set secure
 " set the color of line numbers
 highlight LineNr ctermfg=grey
 " set smartindent
-set showcmd
-" key mappings
-imap { {<Space>}<ESC>hi<Space>
+" Nerdtree
+autocmd vimenter * NERDTree
+
