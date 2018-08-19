@@ -73,3 +73,5 @@ set secure
 highlight LineNr ctermfg=grey
 " set smartindent
 set showcmd
+" key mappings
+imap { {<Space>}<ESC>hi<Space>
