@@ -1,5 +1,9 @@
 """"""" Vundle
 source ~/.vim/bundle.vim
+"""""""
+""""""" Nerdtree
+autocmd vimenter * NERDTree
+"""""""
 
 if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
    set fileencodings=ucs-bom,utf-8,latin1
@@ -76,6 +80,4 @@ set secure
 " set the color of line numbers
 highlight LineNr ctermfg=grey
 " set smartindent
-" Nerdtree
-autocmd vimenter * NERDTree
 
