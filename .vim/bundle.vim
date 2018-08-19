@@ -5,5 +5,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'vim-nerdtree-tabs'
 call vundle#end()
 filetype plugin indent on    " required

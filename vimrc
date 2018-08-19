@@ -4,6 +4,9 @@ source ~/.vim/bundle.vim
 """"""" Nerdtree
 autocmd vimenter * NERDTree
 """""""
+""""""" Nerdtree-tab
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
+"""""""
 
 if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
    set fileencodings=ucs-bom,utf-8,latin1
